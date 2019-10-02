@@ -1,0 +1,18 @@
+{
+    "name": "deSS",
+    "version": "1.0",
+    "description": "Unbuild the house",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "icon.jpg"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "test.js"
+        ]
+    }
+}
